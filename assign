@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:tan;
+  font-family: Lucida Handwriting,cursive;
+  font-size: 16px;
+  color: gray;  
+}
+h1 {
+  background-color:lavender;
+  font-family: Lucida Handwriting,cursive;
+  font-size: 50px;
+  color: purple;
+ }
+p.oblique {
+  font-style: oblique;
+}
+</style>
+</head>
+<h1 style="color:purple;">My Favorite Books</h1>
+<head>
+<style>
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="gallery">
+  <a target="_blank" href="https://orion-uploads.openroadmedia.com/sm_1a8a7ab5c819-fewthingsleftunsaid.jpg">
+    <img src="https://orion-uploads.openroadmedia.com/sm_1a8a7ab5c819-fewthingsleftunsaid.jpg" alt="Few things left usaid" width="600" height="400">
+  </a>
+  <div class="desc">“FEW THINGS LEFT UNSAID” is the first novel by Mr. Sudeep Nagarkar.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://austinedecker.com/wp-content/uploads/2015/10/A-Court-of-Thorns-and-Roses-Maas.jpg">
+    <img src="https://austinedecker.com/wp-content/uploads/2015/10/A-Court-of-Thorns-and-Roses-Maas.jpg" alt="The court of thorns and roses" width="600" height="400">
+  </a>
+  <div class="desc">The Court Of Thorns And Roses is one of the best NEW YORK best seller written by Sarah.J.Maas</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images-na.ssl-images-amazon.com/images/I/817vqET828L.jpg">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/817vqET828L.jpg" alt="It ends with us" width="600" height="400">
+  </a>
+  <div class="desc">It Ends With Us is a 2016 romance novel by Colleen Hoover.</div>
+</div>
+
+
+</body>
+</html>
+
+
